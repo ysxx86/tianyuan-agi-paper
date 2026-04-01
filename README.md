@@ -91,3 +91,74 @@ Xiao K M. TianYuan: A Brain-Inspired AGI Architecture for Global Robot Unified C
 若有疑问、合作、版权购买或变现授权相关问题，请联系：
 - 邮箱：492610718@qq.com（肖昆明，通讯作者邮箱）
 - GitHub：https://github.com/ysxx86
+
+## 发布到GitHub
+
+### 步骤1：在GitHub创建新仓库
+1. 登录GitHub账号：https://github.com
+2. 点击右上角"+"号，选择"New repository"
+3. 填写仓库信息：
+   - Repository name：`tianyuan-agi-paper`（建议命名）
+   - Description：类脑AGI架构"天元"系统论文存档
+   - 可见性：选择Public（公开）或Private（私有）
+   - **不要勾选**"Initialize this repository with a README"（避免冲突）
+4. 点击"Create repository"完成创建
+
+### 步骤2：添加远程仓库连接
+在本地项目根目录执行以下命令：
+
+```bash
+# 添加远程仓库（请替换为你的GitHub用户名）
+git remote add origin https://github.com/你的用户名/tianyuan-agi-paper.git
+
+# 查看远程仓库连接
+git remote -v
+```
+
+### 步骤3：推送代码到GitHub
+执行以下命令将本地代码推送到GitHub：
+
+```bash
+# 推送代码到master分支
+git push -u origin master
+
+# 如果使用main分支，使用以下命令
+# git push -u origin main
+```
+
+### 步骤4：验证发布成功
+1. 访问仓库地址：`https://github.com/你的用户名/tianyuan-agi-paper`
+2. 确认以下内容：
+   - 论文PDF文件已上传
+   - README.md正常显示
+   - 目录结构完整（paper/、data/、code/）
+   - LICENSE文件存在
+
+### 完整命令示例
+以下是一键执行的完整命令（请替换用户名）：
+
+```bash
+# 初始化Git仓库（如果尚未初始化）
+git init
+
+# 添加所有文件到暂存区
+git add .
+
+# 提交更改
+git commit -m "Initial commit: 天元系统论文存档"
+
+# 添加远程仓库（替换你的用户名）
+git remote add origin https://github.com/你的用户名/tianyuan-agi-paper.git
+
+# 推送到GitHub
+git push -u origin master
+```
+
+### 注意事项
+- **Git安装**：确保本地已安装Git，可通过`git --version`验证
+- **GitHub账号**：确保已有GitHub账号并已登录
+- **仓库权限**：确保有创建仓库的权限
+- **网络连接**：确保网络连接正常，可访问GitHub
+- **认证方式**：建议配置SSH密钥或Personal Access Token，避免每次输入密码
+- **分支名称**：GitHub新仓库默认分支为main，如需使用master请手动修改
+- **文件大小**：单个文件不超过100MB，总仓库不超过1GB

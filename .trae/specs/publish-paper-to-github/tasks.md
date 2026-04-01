@@ -33,14 +33,14 @@
   - [x] SubTask 6.3: 添加仓库使用说明
 
 ## 阶段四：Git仓库初始化与发布准备
-- [ ] Task 7: 初始化Git仓库
-  - [ ] SubTask 7.1: 执行git init初始化仓库
-  - [ ] SubTask 7.2: 添加所有文件到暂存区
-  - [ ] SubTask 7.3: 创建首次提交
+- [x] Task 7: 初始化Git仓库
+  - [x] SubTask 7.1: 执行git init初始化仓库
+  - [x] SubTask 7.2: 添加所有文件到暂存区
+  - [x] SubTask 7.3: 创建首次提交
 
-- [ ] Task 8: 创建GitHub远程仓库连接说明
-  - [ ] SubTask 8.1: 在README.md中添加GitHub仓库创建步骤说明
-  - [ ] SubTask 8.2: 提供git remote add和push命令示例
+- [x] Task 8: 创建GitHub远程仓库连接说明
+  - [x] SubTask 8.1: 在README.md中添加GitHub仓库创建步骤说明
+  - [x] SubTask 8.2: 提供git remote add和push命令示例
 
 # Task Dependencies
 - [Task 2] depends on [Task 1] (版权说明修改依赖LICENSE文件创建)
